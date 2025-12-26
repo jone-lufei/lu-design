@@ -1,11 +1,11 @@
 # Lu Design
 
 <div align="center">
-  <h3>🌊 高端企业级设计系统</h3>
-  <p>清晰独特的 React 组件库，为中后台应用带来全新体验</p>
+  <h3>🌊 Lu Design 轻盈之美 构建未来</h3>
+  <p>一套由卢飞博士为企业级中后台场景打造的 React 组件库。兼具清晰的信息架构、细腻的视觉语言与现代工程化能力。</p>
   
-  [![version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/your-org/lu-design)
-  [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/your-org/lu-design/blob/main/LICENSE)
+  [![version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/lu-design/lu-design)
+  [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/lu-design/lu-design/blob/main/LICENSE)
 </div>
 
 ---
@@ -67,7 +67,7 @@ function App() {
 
 ## 📚 文档
 
-访问 [Lu Design 官网](https://lu-design.com) 查看完整文档。
+访问 [Lu Design 官网](#) 查看完整文档。
 
 ---
 
