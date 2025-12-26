@@ -1,0 +1,76 @@
+{
+  "name": "lu-design",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Lu Design - 高端企业级设计系统，提供清晰独特的组件库",
+  "author": "Lu Design Team",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "design-system",
+    "typescript",
+    "tailwindcss",
+    "framer-motion"
+  ],
+  "main": "./dist/lu-design.umd.js",
+  "module": "./dist/lu-design.es.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/lu-design.es.js",
+      "require": "./dist/lu-design.umd.js"
+    },
+    "./dist/style.css": "./dist/lu-design.css"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:types": "tsc -p tsconfig.lib.json",
+    "build:full": "npm run build && npm run build:types",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build:full"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0",
+    "framer-motion": "^12.0.0"
+  },
+  "dependencies": {
+    "lucide-react": "^0.562.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "autoprefixer": "^10.4.23",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "framer-motion": "^12.23.26",
+    "globals": "^16.5.0",
+    "postcss": "^8.5.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.11.0",
+    "tailwindcss": "^4.1.18",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.4",
+    "vite": "npm:rolldown-vite@7.2.5"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.2.5"
+  }
+}

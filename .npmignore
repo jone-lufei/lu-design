@@ -1,0 +1,48 @@
+# 依赖目录
+node_modules/
+.pnpm-store/
+
+# 开发环境文件
+.vscode/
+.idea/
+*.log
+*.tsbuildinfo
+
+# 源代码（打包后不需要）
+src/
+public/
+
+# 配置文件
+vite.config.ts
+tsconfig*.json
+eslint.config.js
+postcss.config.cjs
+
+# 开发相关文件
+index.html
+.gitignore
+.editorconfig
+.prettierrc
+
+# 文档网站文件（非组件库）
+src/HomePage.tsx
+src/GuidePage.tsx
+src/ResourcesPage.tsx
+src/BlogPage.tsx
+src/ComponentDocPage.tsx
+src/ComponentsOverviewPage.tsx
+src/App.tsx
+src/main.tsx
+src/App.css
+src/assets/
+
+# 测试文件
+__tests__/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# 构建产物临时文件
+.cache/
+.temp/
